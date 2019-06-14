@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		3AFA382B22B453FD00C34C2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFA382A22B453FD00C34C2E /* AppDelegate.swift */; };
-		3AFA382D22B453FD00C34C2E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFA382C22B453FD00C34C2E /* ViewController.swift */; };
 		3AFA383022B453FD00C34C2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AFA382E22B453FD00C34C2E /* Main.storyboard */; };
 		3AFA383222B453FD00C34C2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AFA383122B453FD00C34C2E /* Assets.xcassets */; };
 		3AFA383522B453FD00C34C2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AFA383322B453FD00C34C2E /* LaunchScreen.storyboard */; };
+		3AFA383F22B4549200C34C2E /* SuperModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFA383E22B4549200C34C2E /* SuperModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3AFA382722B453FD00C34C2E /* gitpractice4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gitpractice4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AFA382A22B453FD00C34C2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3AFA382C22B453FD00C34C2E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3AFA382F22B453FD00C34C2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3AFA383122B453FD00C34C2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3AFA383422B453FD00C34C2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3AFA383622B453FD00C34C2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AFA383E22B4549200C34C2E /* SuperModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +54,30 @@
 		3AFA382922B453FD00C34C2E /* gitpractice4 */ = {
 			isa = PBXGroup;
 			children = (
+				3AFA383D22B4547800C34C2E /* bluralu */,
+				3AFA383C22B4547200C34C2E /* Models */,
 				3AFA382A22B453FD00C34C2E /* AppDelegate.swift */,
-				3AFA382C22B453FD00C34C2E /* ViewController.swift */,
 				3AFA382E22B453FD00C34C2E /* Main.storyboard */,
 				3AFA383122B453FD00C34C2E /* Assets.xcassets */,
 				3AFA383322B453FD00C34C2E /* LaunchScreen.storyboard */,
 				3AFA383622B453FD00C34C2E /* Info.plist */,
 			);
 			path = gitpractice4;
+			sourceTree = "<group>";
+		};
+		3AFA383C22B4547200C34C2E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3AFA383E22B4549200C34C2E /* SuperModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3AFA383D22B4547800C34C2E /* bluralu */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = bluralu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +151,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3AFA382D22B453FD00C34C2E /* ViewController.swift in Sources */,
 				3AFA382B22B453FD00C34C2E /* AppDelegate.swift in Sources */,
+				3AFA383F22B4549200C34C2E /* SuperModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
